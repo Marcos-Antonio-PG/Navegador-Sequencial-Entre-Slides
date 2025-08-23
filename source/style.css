@@ -1,0 +1,39 @@
+body {
+    background-color: #fff;
+}
+
+
+.titulo, .subtitulo{
+    color: #000;
+    text-align: center;
+}
+
+main {
+    display: flex;
+    justify-content: center;
+    padding: 15px;
+}
+
+.cards {
+    width: 400px;
+    height: 600px;
+    background-color: #fff;
+    border: solid 3px #000;
+}
+
+button {
+    transform: scale(1);
+    padding: 20px;
+    width: 100px;
+    height: 40px;
+    align-self: center;
+    transition: transform 0.3s ease-in-out ;
+}
+
+button:hover {
+    transform: scale(1.2);
+}
+
+.seta-config {
+    transform: rotate(180deg);
+}

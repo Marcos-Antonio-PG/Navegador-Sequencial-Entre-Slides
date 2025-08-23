@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Navegador Sequencial</title>
+
+
+
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="reset.css">
+</head>
+
+<body>
+
+    <header>
+        <h1 class="titulo">Navegador Sequencial</h1>
+        <h3 class="subtitulo">Pressione os botões voltar e avançar para visualizar os itens.</h2>
+    </header>
+
+    <main>
+        <button class="btn-voltar" id="btn-voltar" onclick="voltar()">
+            <span class="seta-config">
+                 <img src="imagens/seta-esquerda.png" alt="Botão Voltar">
+            </span>
+        </button>
+
+        <div class="card-container">
+            <div class="cards">
+                <h3 class="nome"></h3>
+                <img src="" alt="">
+
+                <div class="info">
+                    <p class="text-info"></p>
+
+                </div>
+
+            </div>
+
+        </div>
+
+        <button class="btn-avancar" id="btn-avancar" onclick="avancar()">
+            <img src="imagens/seta-direita.png" alt="Botão Avançar">
+        </button>
+    </main>
+
+
+
+
+    <script src="script.js"></script>
+</body>
+
+</html>

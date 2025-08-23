@@ -1,0 +1,66 @@
+/* Reset.css */
+
+/* 1. Remover margens e preenchimentos padrão */
+*,
+*::before,
+*::after {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* 2. Remover estilo de links (não afetando a cor) */
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+button {
+  -webkit-tap-highlight-color: transparent; /* Remove o azul no toque */
+}
+
+/* 3. Definir fonte padrão */
+body {
+  font-family: Arial, sans-serif;
+  line-height: 1.5;
+}
+
+/* 4. Ajustes de tabela */
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+/* 5. Ajustes de listas */
+ul, ol {
+  list-style: none;
+}
+
+/* 6. Remover bordas padrão de imagens */
+img {
+  max-width: 100%;
+  height: auto;
+  display: block;
+}
+
+/* 7. Normalizar campos de formulário */
+input,
+button,
+textarea,
+select {
+  font-family: inherit;
+  font-size: inherit;
+  border: none;
+  outline: none;
+  background: none;
+}
+
+/* 8. Normalizar botões */
+button {
+  cursor: pointer;
+}
+
+/* 9. Remover bordas de foco padrão (opcional, caso deseje personalizar) */
+*:focus {
+  outline: none;
+}
