@@ -18,7 +18,8 @@ main {
     width: 400px;
     height: 600px;
     background-color: #fff;
-    border: solid 3px #000;
+    border: solid 4px #000;
+    margin-top: 5px;
 }
 
 button {
@@ -36,4 +37,26 @@ button:hover {
 
 .seta-config {
     transform: rotate(180deg);
+}
+
+.nome {
+    text-align: center;
+}
+
+.imagem {
+    height: 350px;
+    justify-self: center;
+    border: solid 3px #000;
+}
+
+.info {
+    justify-self: center;
+    padding-left: 15px;
+    margin-top: 5px;
+    font-weight: 600;
+    width: 350px;
+    height: 200px;
+    overflow: auto;
+    border-bottom: #000 3px solid;
+    border-top: 3px solid;
 }
