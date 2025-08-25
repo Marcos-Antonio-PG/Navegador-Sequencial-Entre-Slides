@@ -35,10 +35,6 @@ button:hover {
     transform: scale(1.2);
 }
 
-.seta-config {
-    transform: rotate(180deg);
-}
-
 .nome {
     text-align: center;
 }
@@ -59,4 +55,17 @@ button:hover {
     overflow: auto;
     border-bottom: #000 3px solid;
     border-top: 3px solid;
+}
+
+.info::-webkit-scrollbar {
+    width: 10px;
+}
+
+.info::-webkit-scrollbar-track {
+background-color: #fff;
+}
+
+.info::-webkit-scrollbar-thumb {
+    background-color: #000;
+    border-radius: 10px;
 }
