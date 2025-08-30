@@ -14,6 +14,11 @@ function avancarCard() {
         indice++
 
         carregarCards()
+    } else if (indice == 4){
+        indice = 0
+
+        carregarCards()
+
     } else {
         alert('não há mais personagens')
     }
@@ -24,6 +29,11 @@ function voltarCards() {
         indice--
 
         carregarCards()
+    } else if (indice == 0) {
+        indice = 4
+
+        carregarCards()
+
     } else {
         alert('não há mais personagens.')
     }
